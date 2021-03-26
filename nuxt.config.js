@@ -18,7 +18,7 @@ export default {
     title: process.env.npm_package_name || "",
     meta: [
       { charset: "utf-8" },
-       { hid: 'fb:app_id', name: 'fb:app_id', content: '12873892173892' },
+       { hid: 'fb:app_id', name: 'fb:app_id', content: '{{post.title.rendered}}' },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
