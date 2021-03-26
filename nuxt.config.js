@@ -21,7 +21,7 @@ export default {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
-        og: ":href="`blog/${post.slug}`",
+        og: "`blog/${post.slug}`",
         name: "description",
         content: process.env.npm_package_description || ""
       }
