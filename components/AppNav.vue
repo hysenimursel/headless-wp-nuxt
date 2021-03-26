@@ -3,7 +3,7 @@
     <ul>
       <li>
         <nuxt-link exact to="/">
-          <app-icon></app-icon>BlogName
+          <app-icon></app-icon>Home
         </nuxt-link>
       </li>
       <li>
