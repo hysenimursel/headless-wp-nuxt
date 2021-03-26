@@ -18,10 +18,12 @@ export default {
     title: process.env.npm_package_name || "",
     meta: [
       { charset: "utf-8" },
+       { hid: 'fb:app_id', name: 'fb:app_id', content: '12873892173892' },
+      { hid: 'og:title', name: 'og:title', content: this.project.title },
+      { hid: 'og:url', name: 'og:image', content: /blog/${post.slug },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
-        og: "`blog/${post.slug}`",
         name: "description",
         content: process.env.npm_package_description || ""
       }
